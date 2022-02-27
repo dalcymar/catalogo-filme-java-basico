@@ -22,5 +22,10 @@ public class Filmes {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    @Override
+    public String toString() {
+        return "Filmes{" + "nome=" + nome + '}';
+    }
     
 }
