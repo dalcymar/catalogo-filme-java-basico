@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Dalcimar
  */
-public interface AcessoDados {
+public interface IAcessoDados {
 
     boolean existe(String nomeRecurso) throws AcessoDadosEx;
     
